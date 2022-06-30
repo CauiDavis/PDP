@@ -12,7 +12,8 @@ public class Usuario {
         this.Campus = Campus;
         this.Curso = Curso;
     }
-    public String armazenar(){
-        return "Nome:"+ this.Nome + "idade:"+ this.Idade + "Campus:"+ this.Campus + "Curso:"+ this.Curso;
+    @Override
+    public String toString(){
+        return "\nNome: "+ Nome + "\nidade: "+ Idade + "\nCampus: "+ Campus + "\nCurso: "+ Curso;
     }
 }
