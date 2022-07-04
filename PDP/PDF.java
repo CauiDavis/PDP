@@ -5,15 +5,15 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class TXT extends Usuario{
-    TXT(String Nome, Integer Idade, String Campus, String Curso){
+public class PDF extends Usuario{
+    PDF(String Nome, Integer Idade, String Campus, String Curso){
         super( Nome, Idade, Campus, Curso);
     }
 
     @Override
     public void armazenar() {
         try {
-            File arquivo = new File ("arquivo.txt");
+            File arquivo = new File ("arquivopdf.pdf");
             arquivo.createNewFile();
             FileWriter fileWriter = new FileWriter(arquivo,false);
             PrintWriter printWriter = new PrintWriter(fileWriter);

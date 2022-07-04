@@ -1,16 +1,14 @@
 package PDP;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-
 public class TM{
     public static void main(String[] args) {
         Usuario u1 = new TXT("francois",25,"caxias","CC7");
         Usuario u2 = new CSV("francois",25,"caxias","CC7");
-        System.out.println(u1);
+        Usuario u3 = new PDF("francois",25,"caxias","CC7");
+        Usuario u4 = new BINARIO("francois",25,"caxias","CC7");
         u1.templatemethod();
         u2.templatemethod();
+        u3.templatemethod();
+        u4.templatemethod();
     }
 }

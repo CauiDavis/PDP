@@ -21,9 +21,4 @@ abstract class Usuario {
     }
 
     public abstract void armazenar();
-    @Override
-    public String toString(){
-        return "\nNome: "+ Nome + "\nidade: "+ Idade + "\nCampus: "+ Campus + "\nCurso: "+ Curso;
-    }
-    
 }
