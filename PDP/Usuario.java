@@ -16,7 +16,6 @@ abstract class Usuario {
         
     }
 
-
     @Override
     public String toString(){
         return "\nNome: "+ Nome + "\nidade: "+ Idade + "\nCampus: "+ Campus + "\nCurso: "+ Curso;
