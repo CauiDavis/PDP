@@ -10,6 +10,7 @@ public class TM{
         Usuario u1 = new TXT("francois",25,"caxias","CC7");
         Usuario u2 = new CSV("francois",25,"caxias","CC7");
         System.out.println(u1);
-        
+        u1.templatemethod();
+        u2.templatemethod();
     }
 }

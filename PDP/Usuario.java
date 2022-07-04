@@ -16,6 +16,11 @@ abstract class Usuario {
         
     }
 
+    public void templatemethod(){
+        armazenar();
+    }
+
+    public abstract void armazenar();
     @Override
     public String toString(){
         return "\nNome: "+ Nome + "\nidade: "+ Idade + "\nCampus: "+ Campus + "\nCurso: "+ Curso;

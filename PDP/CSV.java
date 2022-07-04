@@ -7,6 +7,10 @@ import java.io.PrintWriter;
 public class CSV extends Usuario {
     CSV(String Nome, Integer Idade, String Campus, String Curso){
         super( Nome, Idade, Campus, Curso);
+    }
+
+    @Override
+    public void armazenar() {
         File arquivo = new File ("arquivocsv.csv");
         try {
             arquivo.createNewFile();

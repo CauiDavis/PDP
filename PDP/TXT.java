@@ -8,8 +8,13 @@ import java.io.PrintWriter;
 public class TXT extends Usuario{
     TXT(String Nome, Integer Idade, String Campus, String Curso){
         super( Nome, Idade, Campus, Curso);
-        File arquivo = new File ("arquivo.txt");
+        
+    }
+
+    @Override
+    public void armazenar() {
         try {
+            File arquivo = new File ("arquivo.txt");
             arquivo.createNewFile();
             FileWriter fileWriter = new FileWriter(arquivo,false);
             PrintWriter printWriter = new PrintWriter(fileWriter);
