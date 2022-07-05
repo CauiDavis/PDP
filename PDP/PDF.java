@@ -23,7 +23,8 @@ public class PDF extends Usuario{
             printWriter.println("Curso: " + Curso);
             printWriter.flush();
             printWriter.close();
-        } catch (IOException ex) {
+        } 
+        catch (IOException ex) {
             ex.printStackTrace();
         }
     }
