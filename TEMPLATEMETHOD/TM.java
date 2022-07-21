@@ -1,4 +1,4 @@
-package PDP;
+package TEMPLATEMETHOD;
 
 public class TM{
     public static void main(String[] args) {

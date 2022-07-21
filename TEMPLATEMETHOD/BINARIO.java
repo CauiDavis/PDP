@@ -1,4 +1,4 @@
-package PDP;
+package TEMPLATEMETHOD;
 
 import java.io.File;
 import java.io.FileWriter;

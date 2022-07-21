@@ -1,4 +1,4 @@
-package PDP;
+package TEMPLATEMETHOD;
 
 abstract class Usuario {
     protected String Nome;
