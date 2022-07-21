@@ -1,36 +1,29 @@
 package PIZZARIA;
 
 public class uspizzafactory extends pizzafactory implements nonveganpizza,vegapizza{
-
     @Override
-    public void pizzavegana() {
-        hanpizza();
+    public String pizzavegana() {
+        return mexicamvegpizza();
+    }
+    @Override
+    public String pizzanaovegana() {
+        return chickenpizzaaditora();
     }
 
     @Override
-    public void pizzanaovegana() {
-        
+    public String deluxveggiepizza() {
+        return null;
     }
-
     @Override
-    public void deluxveggiepizza() {
-        
+    public String chickenpizzaaditora() {
+        return "preparando chickenpizzaaditora";
     }
-
-    @Override
-    public void chickenpizzaaditora() {
-        
-    }
-
     @Override
     public String hanpizza() {
         return null;
-        
     }
-
     @Override
-    public void mexicamvegpizza() {
-        
+    public String mexicamvegpizza() {
+        return "preparando mexicamvegpizza";
     }
-    
 }

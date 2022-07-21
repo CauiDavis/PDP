@@ -1,8 +1,8 @@
 package PIZZARIA;
 
 public abstract class pizzafactory {
-    public abstract void pizzavegana();
+    public abstract String pizzavegana();
 
-    public abstract void pizzanaovegana();
+    public abstract String pizzanaovegana();
     
 }

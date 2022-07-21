@@ -1,8 +1,8 @@
 package PIZZARIA;
 
 public interface nonveganpizza {
-    public void deluxveggiepizza();
+    public String deluxveggiepizza();
 
-    public void chickenpizzaaditora();
+    public String chickenpizzaaditora();
     
 }
