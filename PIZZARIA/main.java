@@ -23,7 +23,7 @@ public class main {
                 case 2:
                 uspizzafactory u2 = new uspizzafactory();
                 u2.pizzanaovegana();
-                System.out.println(u2.pizzavegana());
+                System.out.println(u2.pizzanaovegana());
                 break;
             }
             break;
@@ -37,9 +37,9 @@ public class main {
                 System.out.println(u1.pizzavegana());
                 break;
                 case 2:
-                uspizzafactory u2 = new uspizzafactory();
+                indianpizzafactory u2 = new indianpizzafactory();
                 u2.pizzanaovegana();
-                System.out.println(u2.pizzavegana());
+                System.out.println(u2.pizzanaovegana());
                 break;
             }
             break;
